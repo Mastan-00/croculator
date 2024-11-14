@@ -1,0 +1,20 @@
+#Get User Input
+
+
+#Calculator Logic (If/Elif/Else)
+
+one = int(input("input your first number:"))
+two = int(input("input your second number:"))
+
+operation = input("would you like to add, subtract, multiply, divide, floor division, or exponents(spell correctly!) : ")
+
+if operation == "add":
+  print ("The result of " +str(one)+ " + " + str(two)+ " is " +str(one+two))
+# print ("Results:")
+
+# print ("The result of " +str(one)+ " + " + str(two)+ " is " +str(one+two))
+# print ("The result of " +str(one)+ " - " + str(two)+ " is " +str(one-two))
+# print ("The result of " +str(one)+ " * " + str(two)+ " is " +str(one*two))
+# print ("The result of " +str(one)+ " / " + str(two)+ " is " +str(one/two))
+# print ("The result of " +str(one)+ " // " + str(two)+ " is " +str(one//two))
+# print ("The result of " +str(one)+ " ** " + str(two)+ " is " +str(one**two))
